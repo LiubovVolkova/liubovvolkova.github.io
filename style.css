@@ -82,17 +82,19 @@ main {
   text-align: left;
 }
 
+
 .subheading {
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
   text-align: center;
+  margin: 0 0 0 32px;
 }
 
 .user-image {
   border-radius: 30px;
-  margin: 0 0 32px;
+  margin: 0 0 32 100px;
   float: left;
 }
 
@@ -106,19 +108,20 @@ main {
 
 
 .right {
+  padding: 20px 50px 115px 30px;
   margin: 0 0 32px;
-  padding: 20px 50px 0px 150px;
 }
 
-.skills-list {
-  margin: 0;
-  padding: 0;
-}
 
 .skills-list dt {
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.portfolio h4,
+.portfolio p {
+margin: 0 0 0 32px;
 }
 
 .level {
@@ -139,7 +142,7 @@ main {
 }
 
 .portfolio h2 {
-  margin-top: 166px;
+  margin: 0 0 0 32px;
   text-align: left;
 }
 
@@ -152,12 +155,6 @@ main {
 
 .projects li {
   margin: 0 0 80px;
-}
-
-.project-image {
-  border-radius: 10px;
-  margin: 0 0 24px;
-  text-align: center;
 }
 
 .projects p {
@@ -180,7 +177,7 @@ main {
 .page-footer {
   font-size: 20px;
   padding: 40px 0;
-  background-color: #bedcf7;
+  background-color: #a9c5dd;
   color: #555454;
 }
 
